@@ -1,0 +1,113 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: Lexend, Helvetica, sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem 3rem;
+  flex-wrap: wrap;
+  align-items: end;
+}
+.logo {
+  font-family: Genos;
+  font-size: 4rem;
+}
+li {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0px;
+  padding: 0px;
+  font-family: Lexend;
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+}
+a {
+  color: #152b1e;
+  text-decoration: none;
+}
+.container1 {
+  background-image: url("hero.png");
+  max-width: 80vw;
+  height: 70vh;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+h1 {
+  color: #152b1e;
+  display: flex;
+  text-align: left;
+  font-family: Lexend;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.cartes {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 7rem;
+}
+.argument {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 400px;
+  margin: 0px;
+  gap: 1rem;
+}
+button {
+  padding: 1rem 2rem;
+  color: #fff;
+  border-radius: 16px;
+  border: none;
+  background: #e3504b;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 6rem;
+  gap: 44px;
+}
+title {
+  align-items: flex-start;
+}
+.formulaire {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  align-self: stretch;
+  max-width: 100%;
+}
+input {
+  display: flex;
+  padding: 0.75rem 1rem;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 16px;
+  border: 1px solid #353d2c;
+  background: #fff;
+  max-width: 100%;
+  width: 500px;
+}
+.dates {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 240px;
+  align-items: flex-start;
+}
+.grand {
+  max-width: 100%;
+}
